@@ -1,4 +1,4 @@
-#!/home/awright2014/stentor/myenv/bin/python3
+#!/home/awright2014/Project-Stentor/stentor/myenv/bin/python3
 from django.core import management
 
 if __name__ == "__main__":

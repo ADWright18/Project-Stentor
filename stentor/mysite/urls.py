@@ -19,6 +19,6 @@ from django.conf.urls import include
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^home/', home.site.urls),
-    url(r'^viewer/', viewer.site.urls)
+    url(r'^home/', home.urls),
+    url(r'^viewer/', viewer.urls)
 ]

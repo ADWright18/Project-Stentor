@@ -20,9 +20,5 @@ from django.conf.urls import include
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^home/', include('home.urls')),
-<<<<<<< HEAD
     url(r'^viewer/', include('viewer.urls')),
-=======
-    url(r'^viewer/', include('viewer.urls'))
->>>>>>> 30097ac2b402b3b6a4f8780430e0bb99b4a27550
 ]
